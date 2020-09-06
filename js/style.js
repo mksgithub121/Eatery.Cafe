@@ -40,32 +40,17 @@ $(document).ready(function () {
     });
 
     //active to menu hide
-    <<
-    << << < HEAD
-        // if ($(window).width() < 768) {
-        //     $(".menu ul li").click(function () {
-        //         $(".menu").slideUp(1000)
-        //     })
-        //     $(".menu ul li .submenu").click(function () {
-        //         $(".menu").slideUp(1000)
-        //     })
-        //     if ($(".menu ul .noSlideUP").click()) {
-        //         $(".menu").slideDown();
-        //     }
-        // }
-        ===
-        === =
-        //     if ($(window).width() < 768) {
-        //        $(".menu ul li").click(function () {
-        //          $(".menu").slideUp(1000)
-        //         })
-        //        $(".menu ul li .submenu").click(function () {
-        //            $(".menu").slideUp(1000)
-        //         })
-        //    }
-        >>>
-        >>> > eafb7cafeeefa54ecbc8b7a92dc9e7e934b9cdca
-
+    // if ($(window).width() < 768) {
+    //     $(".menu ul li").click(function () {
+    //         $(".menu").slideUp(1000)
+    //     })
+    //     $(".menu ul li .submenu").click(function () {
+    //         $(".menu").slideUp(1000)
+    //     })
+    //     if ($(".menu ul .noSlideUP").click()) {
+    //         $(".menu").slideDown();
+    //     }
+    // }
 
     //scroll top
     $(".top_btn").click(function () {
