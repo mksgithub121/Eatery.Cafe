@@ -1,0 +1,55 @@
+@include xs_to_tablets {
+    .contact_section {
+        .contact_container {
+            .contact_grid {
+                grid-template-columns: 1fr;
+                grid-row-gap: 5rem;
+
+                .contact_map {
+                    margin: auto;
+                    width: 100%;
+
+                    iframe {
+                        width: 100%;
+                    }
+                }
+
+                .contact_form {
+                    h1 {
+                        font-size: 1.5rem;
+                    }
+
+                    .first_name {
+                        width: 100%;
+                        display: block;
+                        float: none;
+                    }
+
+                    .email {
+                        width: 100%;
+                        display: block;
+                        float: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@include xs {
+    .contact_section {
+        .contact_container {
+            .contact_grid {
+                .contact_map {
+                    margin: auto;
+                    width: 100%;
+
+                    iframe {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}

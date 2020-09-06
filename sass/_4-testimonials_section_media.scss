@@ -1,0 +1,49 @@
+@include tablets {
+    .testimonials_section {
+        .testimonials_container {
+            .testimonials_content {
+                width: 90%;
+
+            }
+        }
+    }
+}
+
+@include phones {
+    .testimonials_section {
+        .testimonials_container {
+            .testimonials_content {
+                width: 90%;
+
+            }
+        }
+    }
+}
+
+@include xs {
+    .testimonials_section {
+        .testimonials_container {
+            .testimonials_content {
+                width: 90%;
+
+                h1 {
+                    font-size: 2rem;
+                }
+
+                p {
+                    font-size: 1.3rem;
+                }
+
+                h4 {
+                    font-size: 1.4rem;
+                }
+
+                span {
+                    font-size: 1.3rem;
+
+                }
+
+            }
+        }
+    }
+}

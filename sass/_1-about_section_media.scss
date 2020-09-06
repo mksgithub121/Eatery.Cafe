@@ -1,0 +1,32 @@
+@include xs_to_tablets {
+  .about_section {
+    .about_container {
+      .abour_grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  }
+}
+
+@include phones {
+  .about_section {
+    .about_container {
+      width: 100%;
+      padding: 0rem 2rem;
+    }
+  }
+}
+
+@include xs {
+  .about_section {
+    .about_container {
+      .abour_grid {
+        .about_content {
+          h1 {
+            font-size: 1.5rem;
+          }
+        }
+      }
+    }
+  }
+}

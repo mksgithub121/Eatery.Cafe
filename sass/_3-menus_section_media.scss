@@ -1,0 +1,29 @@
+@include tablets {
+    .menus_section {
+        .menus_container {
+            .menus_grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    }
+}
+
+@include phones {
+    .menus_section {
+        .menus_container {
+            .menus_grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    }
+}
+
+@include xs {
+    .menus_section {
+        .menus_container {
+            .menus_grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    }
+}

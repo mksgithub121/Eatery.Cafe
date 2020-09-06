@@ -1,0 +1,44 @@
+.about_section {
+    padding-top: 7rem;
+
+    .about_container {
+        .abour_grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-column-gap: 5rem;
+
+            .about_content {
+                width: 100%;
+                margin-top: 2rem;
+
+                h3 {
+                    font-size: .7rem;
+                    color: rgba($black, .5);
+                    font-weight: bold;
+                    font-family: "Montserra", sans-serif;
+                    letter-spacing: .1rem;
+                    padding: 1rem 0rem;
+                }
+
+                h1 {
+                    padding: 1rem 0rem;
+                    font-size: 2rem;
+                    color: rgba($black, .7);
+                }
+
+                p {
+                    line-height: 1.4rem;
+                    color: rgba($black, .6);
+                }
+            }
+
+            .about_img {
+                width: 100%;
+
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

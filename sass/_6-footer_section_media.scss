@@ -1,0 +1,18 @@
+@include xs_to_tablets {
+    .footer_section {
+        .footer_container {
+            width: 100%;
+            padding: 0rem 2rem;
+
+            .footer_grid {
+
+                grid-template-columns: 1fr;
+                grid-row-gap: 4rem;
+
+                .last_item {
+                    justify-self: start;
+                }
+            }
+        }
+    }
+}

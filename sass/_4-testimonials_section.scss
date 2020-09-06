@@ -1,0 +1,42 @@
+.testimonials_section {
+    background-image: url(../img/testimonial-bg.jpg);
+    background-attachment: fixed;
+
+    .testimonials_container {
+        width: 100%;
+        max-width: 100%;
+        background: rgba($black, .4);
+
+        .testimonials_content {
+            width: 80%;
+            margin: auto;
+            color: $white;
+            padding: 7rem 0rem;
+            text-align: center;
+
+            h1 {
+                font-size: 3rem;
+                padding-bottom: 3rem;
+            }
+
+            p {
+                font-size: 1.5rem;
+                line-height: 2.5rem;
+                color: rgba($white, .7);
+                ;
+            }
+
+            h4 {
+                display: inline-block;
+                padding-top: 1rem;
+                font-size: 1.5rem;
+            }
+
+            span {
+                font-size: 1.5rem;
+
+                color: rgba($white, .7);
+            }
+        }
+    }
+}
